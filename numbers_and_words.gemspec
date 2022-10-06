@@ -6,7 +6,7 @@
 
 Gem::Specification.new do |s|
   s.name = "numbers_and_words".freeze
-  s.version = "0.11.11"
+  s.version = "0.11.12"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -206,6 +206,7 @@ Gem::Specification.new do |s|
     "lib/numbers_and_words/translations/ru.rb",
     "lib/numbers_and_words/translations/se.rb",
     "lib/numbers_and_words/translations/tr.rb",
+    "lib/numbers_and_words/translations/az.rb",
     "lib/numbers_and_words/translations/ua.rb",
     "lib/numbers_and_words/translations/vi.rb",
     "lib/numbers_and_words/version.rb",
@@ -233,4 +234,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>.freeze, ["~> 12"])
   end
 end
-

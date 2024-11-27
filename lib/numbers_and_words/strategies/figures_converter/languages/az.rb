@@ -9,7 +9,7 @@ module NumbersAndWords
             words = []
             capacity_words = words_in_capacity(@current_capacity)
             words.push(megs) unless capacity_words.empty?
-            words += capacity_words unless thousand? && one?
+            words += capacity_words
             words
           end
 
